@@ -1,0 +1,25 @@
+1) ng g c auth/login --skip-tests -is
+
+2) ng g c auth/register --skip-tests -is
+
+3) ng g c pages/notpagefound --skip-tests -is
+
+3) ng g c pages/dashboard --skip-tests -is 
+
+4) ng g c shared/breadcrumbs --skip-tests -is
+
+5) ng g c pages/progress -is --skip-tests
+
+6)ng g c pages/grafica1 -is --skip-tests
+
+7) ng g c shared/sidebar --skip-tests -is
+
+8) ng g c shared/header --skip-tests -is
+
+AGREGAR LIBRERIAS EXTERNAS ./assets/
+
+CONFIGURAR RUTA PADRE 
+
+ng g m appRouting --flat
+
+MUESTRA CUANDO ESTE AUTENTICADO ng g c pages/pages --flat --skip-tests -is

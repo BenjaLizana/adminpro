@@ -4,7 +4,7 @@
 
 3) ng g c pages/notpagefound --skip-tests -is
 
-3) ng g c pages/dashboard --skip-tests -is 
+3) ng g c pages/dashboard --skip-tests -is
 
 4) ng g c shared/breadcrumbs --skip-tests -is
 
@@ -18,8 +18,57 @@
 
 AGREGAR LIBRERIAS EXTERNAS ./assets/
 
-CONFIGURAR RUTA PADRE 
+CONFIGURAR RUTA PADRE
 
 ng g m appRouting --flat
 
 MUESTRA CUANDO ESTE AUTENTICADO ng g c pages/pages --flat --skip-tests -is
+
+GUARDAR AVANCE EN GITHUB
+
+1) git init
+
+2) git add .
+
+3) git commit -m "fin seccion 3 - diseño"
+
+Repositorio guardado
+
+Recuperar archivo borrado
+
+git checkout -- .
+
+Subir repositorio
+
+git remote add origin https://github.com/BenjaLizana/adminpro.git
+git branch -M main
+git push -u origin main
+
+Crear relese de produccion a GitHub
+
+git tag -a v1.0.0 -m "Diseño listo"
+
+Desplegar a github
+
+git push --tags
+
+Editar tag
+
+CREAR MODULOS PERSONALIZADOS
+
+ng g m pages/pages --flat
+
+ng g m shared/shared --flat
+
+ng g m auth/auth --flat
+
+Rutas hijas
+
+CREAR en carpeta pages/ pages.routing.ts
+
+cambiar el export class a PagesRoutingModule
+
+CREAR en carpeta auth/ auth.routing.ts
+
+cambiar el export class a AuthRoutingModule
+

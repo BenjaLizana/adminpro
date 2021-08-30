@@ -32,11 +32,17 @@ GUARDAR AVANCE EN GITHUB
 
 3) git commit -m "fin seccion 3 - diseño"
 
+4) git push
+
 Repositorio guardado
 
 Recuperar archivo borrado
 
 git checkout -- .
+
+Git remoto
+
+git remote -v
 
 Subir repositorio
 
@@ -71,4 +77,12 @@ cambiar el export class a PagesRoutingModule
 CREAR en carpeta auth/ auth.routing.ts
 
 cambiar el export class a AuthRoutingModule
+
+BACK DE GITHUB CLONANDO REPOSITORIO DESDE TAG - RELEASE
+
+creación de input desde componente Hijo Input(): progreso
+
+<app-incrementador [progreso]="15"></app-incrementador>
+
+
 
